@@ -21,7 +21,7 @@ Call the `window.MediaScannerPlugin(successCallback, failureCallback)` method by
 ```javascript
 function onDeviceReady()
 {
-	window.MediaScannerPlugin.scanFile(
+	window.MediaScannerPlugin.scanFile(filename,
         function(msg){
             console.log(msg);
         },
